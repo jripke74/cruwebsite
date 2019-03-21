@@ -1,0 +1,122 @@
+/* Color Palette
+#05668D Sea Blue
+#028090 Metallic Seaweed
+#00A896 Persian Green
+#02C39A Caribbean Green
+#F0F3BD Pale Spring Bud
+*/
+
+/* Global styles
+-------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *.:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  padding: 20px;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  margin: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #fff;
+  color: #000;
+}
+/* header */
+header h1, header h2 {
+  color: #F0F3BD;
+  margin: 0;
+}
+header {
+  padding-top: 50px;
+  position: relative;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p + h3 {
+  margin-top: 30px;
+}
+
+/* Media Queries */
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 35%;
+    float: left;
+    padding-right: 3%;
+  }
+  .col-wide {
+    width: 62%;
+    float: left;
+  }
+}
+
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
