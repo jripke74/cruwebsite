@@ -21,12 +21,11 @@ body {
   margin: 0;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
   font-weight: 400;
   padding: 20px;
 }
 h1 {
-  font-size: 80px;
+  font-size: 40px;
 }
 h2 {
   font-size: 40px;
@@ -44,6 +43,9 @@ a:hover {
 img {
   margin: 0;
 }
+hr {
+  width: 80%;
+}
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
@@ -54,7 +56,14 @@ img {
 .uppercase {
   text-transform: uppercase;
 }
-
+.welcome h1 {
+  text-align: center;
+}
+.welcome p {
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 2;
+}
 /* Header and Footer
 -------------------------*/
 header, footer {
