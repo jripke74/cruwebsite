@@ -71,14 +71,20 @@ header {
   padding-top: 50px;
   position: relative;
 }
-
+header .content-wrap {
+  background: #dd7d1b;
+}
+.spokane-img {
+  width: 100%;
+}
 .mission {
   text-align: center;
   line-height: 2em;
 }
 .cru-logo {
-
+  width: 72px;
 }
+
 /* footer */
 footer {
   text-align: center;
@@ -91,19 +97,24 @@ footer {
 /* Navigation */
 nav {
   text-align: center;
+  display: inline;
   background: #fff;
   position: fixed;
   top: 0;
   width: 100%;
 }
 nav a {
+  float: right;
   display: inline-block;
   padding: 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
 }
-
+.logo-link {
+  float: left;
+  padding: 0;
+}
 p + h3 {
   margin-top: 30px;
 }
