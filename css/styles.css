@@ -24,7 +24,28 @@ h1, h2 {
 
 /* header
 -------------------*/
+
+
+/* Navigation */
+nav {
+  text-align: center;
+  display: inline;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  float: right;
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 nav img {
-  width: 45px;
-  height: 45px;
+  padding-left: 20px;
+  float: left;
+  width: 40px;
+  height: 40px;
 }
