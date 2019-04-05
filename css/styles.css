@@ -24,7 +24,9 @@ h1, h2 {
 
 /* header
 -------------------*/
-
+header p {
+  padding-top: 60px;
+}
 
 /* Navigation */
 nav {
