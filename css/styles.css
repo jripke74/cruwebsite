@@ -25,16 +25,19 @@ h1, h2 {
 /* header
 -------------------*/
 header p {
-  padding-top: 60px;
+  padding: 10px;
+  text-align: center;
+  line-height: 2em;
+  color: #666062;
 }
 header section {
-  padding-top: 70px;
+  background-color: #e3e3e3;
+  padding-top: 45px;
 }
 header section img {
-
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 /* Navigation */
 nav {
