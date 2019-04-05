@@ -27,7 +27,15 @@ h1, h2 {
 header p {
   padding-top: 60px;
 }
+header section {
+  padding-top: 70px;
+}
+header section img {
 
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
 /* Navigation */
 nav {
   text-align: center;
