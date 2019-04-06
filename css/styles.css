@@ -59,8 +59,9 @@ nav a {
   font-weight: 700;
 }
 nav img {
+  padding-top: 5px;
   padding-left: 20px;
   float: left;
   width: 40px;
-  height: 40px;
+  height: 30px;
 }
