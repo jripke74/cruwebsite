@@ -25,10 +25,12 @@ h1, h2 {
 /* header
 -------------------*/
 header p {
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
   line-height: 2em;
   color: #666062;
+  width: 80%;
 }
 header section {
   background-color: #e3e3e3;
