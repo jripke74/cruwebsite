@@ -65,6 +65,17 @@ nav img {
   width: 40px;
   height: 30px;
 }
+/* main
+-------------------*/
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.photos img {
+  height: 50%;
+  width: 50%;
+}
 /* footer
 -------------------*/
 footer {
