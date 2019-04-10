@@ -67,14 +67,22 @@ nav img {
 }
 /* main
 -------------------*/
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
 .photos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .photos img {
-  height: 50%;
-  width: 50%;
+  height: 35%;
+  width: 35%;
+}
+
+h1, h2 {
+  text-align: center;
 }
 /* footer
 -------------------*/
