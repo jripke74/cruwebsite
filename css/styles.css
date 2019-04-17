@@ -90,6 +90,9 @@ h1, h2 {
 /* footer
 -------------------*/
 footer {
-  padding-top: 10px;
+  padding: 10px;
   text-align: center;
+}
+footer p {
+  margin: 10px;
 }
