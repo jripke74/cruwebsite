@@ -25,6 +25,7 @@ h1, h2 {
 /* header
 -------------------*/
 header .social-banner {
+  background-color: #F8F8F8;
   display: flex;
   justify-content: flex-end;
   padding: 10px 15px 0 0;
@@ -48,14 +49,10 @@ header p {
   color: #666062;
   width: 80%;
 }
-header section {
-  background-color: #e3e3e3;
-  padding-top: 49px;
-}
-header section img {
-  display: block;
-  margin: 0 auto;
-  width: 90%;
+.spokane-img {
+  background-image: url(../img/spokane.jpg);
+  background-repeat: no-repeat;
+  height: 344px;
 }
 /* Navigation */
 button {
@@ -102,23 +99,26 @@ button {
 nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   background: #fff;
-  top: 0;
   width: 100%;
 }
 .cru-logo {
-  flex-grow: 2;
+  margin-right: auto;
+}
+.cru-logo img {
+  height: 60px;
+  width: 60px;
 }
 nav a {
-  padding: 15px 20px;
   text-decoration: none;
   font-weight: 400;
 }
 nav img {
   padding-top: 5px;
   padding-left: 20px;
-  width: 40px;
-  height: 30px;
+  width: 35px;
+  height: 25px;
 }
 
 /* main
