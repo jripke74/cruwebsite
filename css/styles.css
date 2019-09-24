@@ -32,6 +32,7 @@ h2 {
   position: relative;
   background-color: #60AFC5;
   height: 3rem;
+  margin: 0 auto;
 }
 .banner-featured-stories h2 {
   text-align: left;
@@ -42,6 +43,9 @@ h2 {
 }
 /* header
 -------------------*/
+.main-header {
+  max-width: 100%;
+}
 header .social-banner {
   background-color: #F8F8F8;
   display: flex;
@@ -142,7 +146,7 @@ nav img {
 /* main
 -------------------*/
 .main {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .photos {
