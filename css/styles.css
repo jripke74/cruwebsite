@@ -41,6 +41,15 @@ h2 {
   top: 50%;
   transform: translateY(-50%);
 }
+.stories {
+  display: flex;
+  justify-content: space-around;
+
+}
+.story img {
+  margin-top: 15px;
+  width: 15rem;
+}
 /* header
 -------------------*/
 .main-header {
