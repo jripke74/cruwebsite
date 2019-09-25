@@ -48,7 +48,12 @@ h2 {
 }
 .story img {
   margin-top: 15px;
-  width: 15rem;
+  width: 365px;
+  height: 287px;
+}
+.story p {
+  margin-top: 15px;
+  width: 365px;
 }
 /* header
 -------------------*/
