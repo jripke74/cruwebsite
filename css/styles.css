@@ -55,6 +55,16 @@ h2 {
   margin-top: 15px;
   width: 365px;
 }
+.story button {
+  display: block;
+  border: 1px solid #60AFC5;
+  width: 250px;
+  height: 46px;
+  margin: 15px auto;
+}
+.story a {
+  text-decoration: none;
+}
 /* header
 -------------------*/
 .main-header {
