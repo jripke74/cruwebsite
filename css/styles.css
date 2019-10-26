@@ -99,7 +99,7 @@ header p {
   width: 80%;
 }
 .spokane-img {
-  background-image: url(../img/spokane.jpg);
+  background: url(../img/spokane.jpg);
   background-repeat: no-repeat;
   height: 344px;
 }
