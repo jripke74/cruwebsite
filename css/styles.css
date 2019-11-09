@@ -145,6 +145,13 @@ button {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+.begining-your-journey h1 {
+  color: #444;
+}
+.begining-your-journey {
+  width: 80%;
+  color: #444;
+}
 nav {
   display: flex;
   justify-content: flex-end;
