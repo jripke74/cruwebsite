@@ -152,6 +152,10 @@ button {
   width: 80%;
   color: #444;
 }
+.faq {
+  width: 80%;
+  color: #444;
+}
 nav {
   display: flex;
   justify-content: flex-end;
