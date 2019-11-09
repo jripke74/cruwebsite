@@ -156,6 +156,12 @@ button {
   width: 80%;
   color: #444;
 }
+.staff-mission {
+  display: flex;
+}
+.staff-mission div {
+  width: 50%;
+}
 nav {
   display: flex;
   justify-content: flex-end;
