@@ -15,3 +15,8 @@ header .social-banner img {
   height: 1.25em;
   fill: grey;
 }
+.spokane-img {
+  background: url(../img/spokane.jpg);
+  background-repeat: no-repeat;
+  height: 344px;
+}
