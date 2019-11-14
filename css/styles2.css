@@ -1,0 +1,17 @@
+header .social-banner {
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px 0 0;
+}
+.facebook:hover {
+  background-color: #3b5998;
+}
+.twitter:hover {
+  background-color: #1da1f2;
+}
+header .social-banner img {
+  width: 1.25em;
+  height: 1.25em;
+  fill: grey;
+}
