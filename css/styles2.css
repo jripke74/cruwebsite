@@ -4,6 +4,12 @@ header .social-banner {
   justify-content: flex-end;
   padding: 10px 15px 0 0;
 }
+h1 {
+  font-size: 5rem;
+}
+h1, h2 {
+  color: #e8e2e1;
+}
 .facebook:hover {
   background-color: #3b5998;
 }
@@ -16,7 +22,21 @@ header .social-banner img {
   fill: grey;
 }
 .spokane-img {
+  margin: 15px 0;
   background: url(../img/spokane.jpg);
   background-repeat: no-repeat;
   height: 344px;
+}
+.navbar.scrolled {
+  background-color: #fff;
+  transition: background 500ms;
+}
+.text-center p {
+  margin: 10px auto;
+  color: #8a8787;
+  max-width: 70%;
+}
+.banner-featured-stories {
+  width: 100%;
+  background-color: #109bc5;
 }
