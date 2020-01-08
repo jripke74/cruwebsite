@@ -56,7 +56,12 @@ footer img {
 }
 
 footer {
-  background-color: #109bc5;
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer a {
+  color: #8a8787;
 }
 
 hr {
