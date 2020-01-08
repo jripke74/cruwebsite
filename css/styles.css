@@ -32,6 +32,9 @@ header .social-banner img {
   background-color: #fff;
   transition: background 500ms;
 }
+.text-center {
+  margin-top: 60px;
+}
 .text-center p {
   margin: 10px auto;
   color: #8a8787;
@@ -62,6 +65,7 @@ footer {
 
 footer a {
   color: #8a8787;
+  margin: 0 20px;
 }
 
 hr {
