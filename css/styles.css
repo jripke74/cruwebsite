@@ -73,3 +73,14 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(192,192,192, 0), rgba(192,192,192, 0.75), rgba(192,192,192, 0));
 }
+
+#mainNav {
+  height: 100px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#cru-logo {
+  height: 75px;
+  width: 100px;
+}
