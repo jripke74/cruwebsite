@@ -11,10 +11,10 @@ h1, h2 {
   color: #e8e2e1;
 }
 .facebook:hover {
-  background-color: #3b5998;
+  background-color: #fff;
 }
 .twitter:hover {
-  background-color: #1da1f2;
+  background-color: #fff;
 }
 header .social-banner img {
   width: 1.25em;
