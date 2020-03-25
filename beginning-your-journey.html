@@ -5,63 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Beginning Your Journey? - Cru Spokane</title>
-    <link rel="stylesheet" href="css/meyers-css-reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-        <header class="main-header" role="banner">
-                <div class="social-banner">
-                  <a class="facebook" href="https://www.facebook.com/SpokaneCru"><img src="img/facebook-f-brands.svg" alt="facebook"></a>
-                  <a class="twitter" href="https://www.twitter.com/SpokaneCru"><img src="img/twitter-brands.svg" alt="twitter"></a>
-                </div>
-                <nav role="navigation">
-                      <div class="cru-logo">
-                        <a href="index.html"><img src="img/cru-logo-screen.jpg" alt="CRU logo"></a>
-                      </div>
-                      <div class="dropdown">
-                        <button class="dropdown">Cru City Spokane</button>
-                        <div class="dropdown-items">
-                          <a class="dropdown-item" href="index.html">CRU Spokane</a>
-                          <a href="about-us.html">About Us</a>
-                          <a href="whatwedo.html">What We Do</a>
-                          <a href="faq.html">FAQ&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                          <a href="https://www.cru.org/us/en/communities/city/locations.html">Other Cru Cities</a>
-                          <a href="whatwebeleive.html">What We Believe</a>
-                      </div>
-                      </div>
-                      <div class="dropdown">
-                        <button class="dropdown">Get Involved</button>
-                        <div class="dropdown-items">
-                          <a href="beginning-your-journey.html">Beginning Your Journey</a>
-                          <a href="whatwedo.html">Serve Others Together</a>
-                          <a href="whatwedo.html">Bible Study</a>
-                          <a href="othercrucities.html">Mentoring and Discipleship</a>
-                          <a href="whatwebeleive.html">Give</a>
-                        </div>
-                      </div>
-                      <div class="dropdown">
-                        <button class="dropdown">Resources</button>
-                        <div class="dropdown-items">
-                          <a href="https://www.cru.org/us/en/train-and-grow/help-others-grow/discipleship/adult-discipleship-resources.html">Printed and Downloadable Materials</a>
-                          <a href="whatwedo.html">Podcasts</a>
-                        </div>
-                      </div>
-                      <div class="dropdown">
-                        <button class="dropdown">Call to Community</button>
-                        <div class="dropdown-items">
-                          <a href="aboutus.html">About Us</a>
-                          <a href="whatwedo.html">What We Do</a>
-                        </div>
-                      </div>
-                      <div class="dropdown">
-                        <button class="dropdown">Questions about God?</button>
-                        <div class="dropdown-items">
-                          <a href="questionsaboutgod.html">Questions about God?</a>
-                        </div>
-                      </div>
-                </nav>
-        </header>
-  <main class="main begining-your-journey" role="main">
+  <!-- main nav start -->
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top" id="mainNav">
+    <a  class="navbar-brand" href="index.html"><img id="cru-logo" src="img/cru-logo-screen2.jpg" alt="CRU logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cru City Spokane
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">CRU Spokane</a>
+            <a class="dropdown-item" href="about-us.html">About Us</a>
+            <a class="dropdown-item" href="what-we-do.html">What We Do</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+            <a class="dropdown-item" href="https://www.cru.org/us/en/communities/city/locations.html">Other Cru Cities</a>
+            <a class="dropdown-item" href="whatwebeleive.html">What We Believe</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav" >
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get Involved
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="beginning-your-journey.html">Beginning Your Journey</a>
+              <a class="dropdown-item" href="what-we-do.html">Serve Others Together</a>
+              <a class="dropdown-item" href="whatwedo.html">Bible Study</a>
+              <a class="dropdown-item" href="othercrucities.html">Mentoring and Discipleship</a>
+              <a class="dropdown-item" href="whatwebeleive.html">Give</a>
+            </div>
+          </li>
+        </ul>
+      <ul class="navbar-nav" >
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.cru.org/us/en/train-and-grow/help-others-grow/discipleship/adult-discipleship-resources.html">Printed and Downloadable Materials</a>
+            <a class="dropdown-item" href="whatwedo.html">Podcasts</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav" >
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Call to Community
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="aboutus.html">About Us</a>
+              <a class="dropdown-item" href="whatwedo.html">What We Do</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav" >
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Questions about God?
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdwon-item" href="questionsaboutgod.html">Questions about God?</a>
+              </div>
+            </li>
+          </ul>
+    </div>
+  </nav>
+  <header>
+    <img src="img/IMG_3189.jpeg" alt="">
+  </header>
+
+  <main class="container main begining-your-journey" role="main">
     <h1>Beginning Your Journey</h1>
     <p>Wondering what it means to have a personal relationship with God? Struggling with doubts about God, faith, the Bible?</p>
     <p>Many people find they have drifted away from God at some point and then later feel like maybe it would be worthwhile to revisit the matter.  But how does one begin a relationship with the God of creation? How does a person seek God and “find Him?”</p>
@@ -77,5 +100,57 @@
     <p>A great faith experiment to try is to read the Gospel of John for 30 days and ask God to reveal Himself to you. If you become convinced of the truth of the scriptures and the identity of Christ, you will want to begin that relationship with Him. It’s the most important decision you can ever make.  Here is a link where you can find a simple explanation on <a href="https://www.cru.org/us/en/how-to-know-god/would-you-like-to-know-god-personally.html" target="_blank">how to have a personal relationship</a> with God through His Son, Jesus Christ.</p>
     <p>Cru City Austin wants to be a resource for anyone who wants to explore their spiritual life. If you have questions, would like to talk with someone about these matters or would like to explore the issues in a small group setting please contact us at a <a href="mailto:chris.rodgers@cru.org?subject=feedback">Chris.Rodgers@cru.org</a>.</p>
   </main>
+<!-- FOOTER -->
+<footer id="main-footer" class="bg-info mb-0">
+  <div class="container">
+    <div class="row text-white">
+      <div class="col text-center py-4">
+        <h3>CRU Spokane</h3>
+        <a class="facebook" href="https://www.facebook.com/SpokaneCru"><img src="img/facebook-f-brands.svg" alt="facebook"></a>
+  <a class="twitter" href="https://www.twitter.com/SpokaneCru"><img src="img/twitter-brands.svg" alt="twitter"></a>
+        <p class="text-white">Copyright &copy; <span id="year"></span></p>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block" data-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
